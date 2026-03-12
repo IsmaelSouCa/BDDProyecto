@@ -12,7 +12,7 @@ NOMBRE Y APELLIDOS
 
 
 TAREAS A REALIZAR
-- [ ] Redacción de título, índice y descripción del proyecto
+- [x] Redacción de título, índice y descripción del proyecto
 - [ ] Realización diagrama MER extendido
 - [ ] Transformación a modelo relacional
 - [ ] Representación gráfica en Oracle Data Modeler
