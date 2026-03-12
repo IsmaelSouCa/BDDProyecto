@@ -1,17 +1,17 @@
-##TEMA
-"\n"**    Gimnasio RippedFIT**
+## TEMA
+    Gimnasio RippedFIT
 
-##URL
+## URL
     ##https://github.com/IsmaelSouCa/BDDProyecto
 
 
-##NOMBRE Y APELLIDOS
+## NOMBRE Y APELLIDOS
   - Nicolás González Cazalla
   - Ismael Soutto Carrasco
   - José María Moya Dorado
 
 
-##TAREAS A REALIZAR
+TAREAS A REALIZAR
 - [x] Redacción de título, índice y descripción del proyecto
 - [ ] Realización diagrama MER extendido
 - [ ] Transformación a modelo relacional
