@@ -36,5 +36,5 @@
 
 | Fecha | Nombres | Tareas | Tiempo de realización |
 | 12/03/2026 | Ismael, Nicolás y José María | Redacción de título, índice y descripción del proyecto. Realización del diagrama E-R | 2 horas de clase |
-| 16/03/2026 | Ismael, José María | Modelo Entidad Relación y Grafo relacional | :--- |
+| 16/03/2026 | Ismael, José María | Modelo Entidad Relación y Grafo relacional | ---: |
 | 16/03/2026 | Nicolás | Representación gráfica en Oracle Data Modeler | ---: |
