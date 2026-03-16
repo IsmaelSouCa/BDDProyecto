@@ -2,7 +2,7 @@
     Gimnasio RippedFIT
 
 ## URL
-    ##https://github.com/IsmaelSouCa/BDDProyecto
+    https://github.com/IsmaelSouCa/BDDProyecto
 
 
 ## NOMBRE Y APELLIDOS
