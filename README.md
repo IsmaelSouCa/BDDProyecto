@@ -14,6 +14,8 @@
 ## TAREAS A REALIZAR
 - [x] Redacción de título, índice y descripción del proyecto
 - [ ] Realización diagrama MER extendido
+    - [x] Modelo Entidad Relacion
+    - [ ] Grafo Relacional
 - [ ] Transformación a modelo relacional
 - [ ] Representación gráfica en Oracle Data Modeler
 - [ ] Esquema de eliminación de tablas y código fuente con los scripts generados
