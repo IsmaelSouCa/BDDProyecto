@@ -13,10 +13,10 @@
 
 ## TAREAS A REALIZAR
 - [x] Redacción de título, índice y descripción del proyecto
-- [ ] Realización diagrama MER extendido
+- [x] Realización diagrama MER extendido
+- [x] Transformación a modelo relacional
     - [x] Modelo Entidad Relacion
-    - [ ] Grafo Relacional
-- [ ] Transformación a modelo relacional
+    - [x] Grafo Relacional
 - [ ] Representación gráfica en Oracle Data Modeler
 - [ ] Esquema de eliminación de tablas y código fuente con los scripts generados
 - [ ] Volcado de datos en Oracle SQL Developer
@@ -37,5 +37,5 @@
 | Fecha | Nombres | Tareas | Tiempo de realización |
 | :--- | :---: | :---: | ---: |
 | 12/03/2026 | Ismael, Nicolás y José María | Redacción de título, índice y descripción del proyecto. Realización del diagrama E-R | 2 horas de clase |
-| 16/03/2026 | Ismael, José María | Modelo Entidad Relación y Grafo relacional | ---: |
+| 16/03/2026 | Ismael, José María | Modelo Entidad Relación y Grafo relacional | 1 hora |
 | 16/03/2026 | Nicolás | Representación gráfica en Oracle Data Modeler | ---: |
