@@ -17,9 +17,9 @@
 - [x] Transformación a modelo relacional
     - [x] Modelo Entidad Relacion
     - [x] Grafo Relacional
-- [ ] Representación gráfica en Oracle Data Modeler
-- [ ] Esquema de eliminación de tablas y código fuente con los scripts generados
-- [ ] Volcado de datos en Oracle SQL Developer
+- [x] Representación gráfica en Oracle Data Modeler
+- [x] Esquema de eliminación de tablas y código fuente con los scripts generados
+- [x] Volcado de datos en Oracle SQL Developer
 - [ ] Comprobación en DBeaver
 - [ ] Data Modeler del modelo lógico de la base de datos
 - [ ] Generación de diagrama DBeaver y Data Modeler
@@ -39,4 +39,5 @@
 | 12/03/2026 | Ismael, Nicolás y José María | Redacción de título, índice y descripción del proyecto. Realización del diagrama E-R | 2 horas de clase |
 | 16/03/2026 | Ismael, José María | Modelo Entidad Relación y Grafo relacional | 1 hora |
 | 16/03/2026 | Nicolás | Representación gráfica en Oracle Data Modeler | 1 hora |
-| :--- | :---: | Esquema de eliminación de tablas y código fuente de los scripts generados | ---: |
+| 18/03/2026 | Ismael | Esquema de eliminación de tablas y código fuente de los scripts generados | 20 minutos |
+| 18/03/2026 | José María | Generación y volcado de datos | 1 hora y 30 minutos |
