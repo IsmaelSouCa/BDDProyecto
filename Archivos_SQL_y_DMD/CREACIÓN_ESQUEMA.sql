@@ -175,5 +175,7 @@ ALTER TABLE usuario_utiliza_maquina
     ADD CONSTRAINT usuario_utiliza_maquina_usuario_fk FOREIGN KEY ( id_usuario )
         REFERENCES usuario ( id_usuario );
 
+ALTER TABLE empleado
+    ADD CONSTRAINT ck_empleado_jefe CHECK(id_jefe BETWEEN 1 AND 25);
 
 COMMIT;
