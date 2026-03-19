@@ -1,0 +1,178 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8300ECC7-E0FC-44DD-7ECC-C2E077A8592E" name="empleado">
+<sourceDDLFile>DDL_DATA_MODELER.ddl</sourceDDLFile>
+<createdBy>usuario</createdBy>
+<createdTime>2026-03-19 19:55:15 UTC</createdTime>
+<ownerDesignName>DMD</ownerDesignName>
+<importedID>0DA82F8A-5FEE-0CA7-4635-4E02F089396B</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_empleado" id="7BB6289B-999F-A559-6BA6-9E1FFE19B75D">
+<sourceDDLFile>DDL_DATA_MODELER.ddl</sourceDDLFile>
+<createdBy>usuario</createdBy>
+<createdTime>2026-03-19 19:55:15 UTC</createdTime>
+<ownerDesignName>DMD</ownerDesignName>
+<importedID>96F456AA-D7A7-CCC6-1423-834513DC35FF</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>447FC532-0DBA-550C-A7AC-8600771B0D24</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dni" id="ECBB4556-5FB8-45B3-8E60-B833E035D716">
+<sourceDDLFile>DDL_DATA_MODELER.ddl</sourceDDLFile>
+<createdBy>usuario</createdBy>
+<createdTime>2026-03-19 19:55:15 UTC</createdTime>
+<ownerDesignName>DMD</ownerDesignName>
+<importedID>E3B61B88-65AC-76EF-3789-93D3E89C659B</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>892FA553-E8DC-4A0E-D524-0C3B1E7922DE</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="E2D7F93C-7D2F-2C81-8BFC-469367719329">
+<sourceDDLFile>DDL_DATA_MODELER.ddl</sourceDDLFile>
+<createdBy>usuario</createdBy>
+<createdTime>2026-03-19 19:55:15 UTC</createdTime>
+<ownerDesignName>DMD</ownerDesignName>
+<importedID>CDB75609-37BA-09E7-9576-FC6219924A29</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>28812A9D-DE62-BAD4-4DA7-19302F658674</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="apellido1" id="FD9FD09B-7CBF-AAD5-D0FC-0B4F05EFE756">
+<sourceDDLFile>DDL_DATA_MODELER.ddl</sourceDDLFile>
+<createdBy>usuario</createdBy>
+<createdTime>2026-03-19 19:55:15 UTC</createdTime>
+<ownerDesignName>DMD</ownerDesignName>
+<importedID>9FE0874E-ABF6-C6C2-D3E4-3DA7D98902A5</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>28812A9D-DE62-BAD4-4DA7-19302F658674</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="apellido2" id="4C4A28CD-134D-D168-B4CB-9A28C7B17BC0">
+<sourceDDLFile>DDL_DATA_MODELER.ddl</sourceDDLFile>
+<createdBy>usuario</createdBy>
+<createdTime>2026-03-19 19:55:15 UTC</createdTime>
+<ownerDesignName>DMD</ownerDesignName>
+<importedID>1CFC5BA3-FBB7-A357-4F15-03B32BB6D364</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>28812A9D-DE62-BAD4-4DA7-19302F658674</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="salario" id="963657CC-20CB-368F-7783-FB931D5C5513">
+<sourceDDLFile>DDL_DATA_MODELER.ddl</sourceDDLFile>
+<createdBy>usuario</createdBy>
+<createdTime>2026-03-19 19:55:15 UTC</createdTime>
+<ownerDesignName>DMD</ownerDesignName>
+<importedID>20FD25A1-60AD-F4B9-467F-F90A33527DC5</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>5D754255-9F79-4459-C61B-DC102A6DFDBE</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tlf_contacto" id="D646466C-2C5A-14D9-0B9D-51C79E655312">
+<sourceDDLFile>DDL_DATA_MODELER.ddl</sourceDDLFile>
+<createdBy>usuario</createdBy>
+<createdTime>2026-03-19 19:55:15 UTC</createdTime>
+<ownerDesignName>DMD</ownerDesignName>
+<importedID>2EB79807-4DBB-E07C-0925-80776CABC3D0</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>238ECDF5-60DD-5E11-832E-2D1FDA145EFE</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_centro" id="4CBE1365-02CB-DEED-ADFC-2198F0609409">
+<sourceDDLFile>DDL_DATA_MODELER.ddl</sourceDDLFile>
+<createdBy>usuario</createdBy>
+<createdTime>2026-03-19 19:55:15 UTC</createdTime>
+<ownerDesignName>DMD</ownerDesignName>
+<importedID>85111C9A-3CD6-3976-3546-8255B2414E7C</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>447FC532-0DBA-550C-A7AC-8600771B0D24</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6DE9999B-7FE9-CC7F-55CB-0E7388795A78" referredColumn="F23FB365-677C-8AC0-13B8-B96B5AC06C1C"/>
+</associations>
+</Column>
+<Column name="id_jefe" id="567C5E04-0827-E955-7B70-B6E3EB7D36B2">
+<sourceDDLFile>DDL_DATA_MODELER.ddl</sourceDDLFile>
+<createdBy>usuario</createdBy>
+<createdTime>2026-03-19 19:55:15 UTC</createdTime>
+<ownerDesignName>DMD</ownerDesignName>
+<importedID>2E76D24A-1E94-3A50-99BA-8431778C3FFD</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>447FC532-0DBA-550C-A7AC-8600771B0D24</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F5867D3C-B8BB-4EDD-0F47-E6DE790BEEB4" referredColumn="7BB6289B-999F-A559-6BA6-9E1FFE19B75D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5862EB1C-8765-4907-2C3D-43AF2E4047CA" name="empleado_pk">
+<sourceDDLFile>DDL_DATA_MODELER.ddl</sourceDDLFile>
+<createdBy>usuario</createdBy>
+<createdTime>2026-03-19 19:55:15 UTC</createdTime>
+<ownerDesignName>DMD</ownerDesignName>
+<importedID>D4596C23-A5F8-4B2B-48C6-A19B965A658D</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7BB6289B-999F-A559-6BA6-9E1FFE19B75D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8391AEAA-14AE-BF20-C4EC-8000C540D87D" name="empleado__un">
+<sourceDDLFile>DDL_DATA_MODELER.ddl</sourceDDLFile>
+<createdBy>usuario</createdBy>
+<createdTime>2026-03-19 19:55:15 UTC</createdTime>
+<ownerDesignName>DMD</ownerDesignName>
+<importedID>54AFCE6B-CE6D-3DB6-E28F-F02997F02142</importedID>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ECBB4556-5FB8-45B3-8E60-B833E035D716"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BD7D1C54-FFA4-DE97-A6BB-643B366636A9" name="empleado_centro_fk">
+<createdBy>usuario</createdBy>
+<createdTime>2026-03-19 19:55:15 UTC</createdTime>
+<ownerDesignName>DMD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4CBE1365-02CB-DEED-ADFC-2198F0609409"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="034C3337-A894-C6E7-F74C-2F86FAB52364" name="empleado_empleado_fk">
+<createdBy>usuario</createdBy>
+<createdTime>2026-03-19 19:55:15 UTC</createdTime>
+<ownerDesignName>DMD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="567C5E04-0827-E955-7B70-B6E3EB7D36B2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

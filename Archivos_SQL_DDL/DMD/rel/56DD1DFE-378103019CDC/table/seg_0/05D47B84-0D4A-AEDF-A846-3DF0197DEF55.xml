@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="05D47B84-0D4A-AEDF-A846-3DF0197DEF55" name="rutina">
+<sourceDDLFile>DDL_DATA_MODELER.ddl</sourceDDLFile>
+<createdBy>usuario</createdBy>
+<createdTime>2026-03-19 19:55:15 UTC</createdTime>
+<ownerDesignName>DMD</ownerDesignName>
+<importedID>9A9E7D82-8202-910C-0EB1-3144EEF2E5CB</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_servicio" id="7CEC1A09-2F7E-5265-37A4-C2893D03F46D">
+<sourceDDLFile>DDL_DATA_MODELER.ddl</sourceDDLFile>
+<createdBy>usuario</createdBy>
+<createdTime>2026-03-19 19:55:15 UTC</createdTime>
+<ownerDesignName>DMD</ownerDesignName>
+<importedID>C606DC55-5DC4-4A4A-95E7-A1196379E161</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>447FC532-0DBA-550C-A7AC-8600771B0D24</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4992E010-AE02-F22A-D036-533E77C8D071" referredColumn="6D7CB0F9-7237-22BF-73E9-BE10AC788CFD"/>
+</associations>
+</Column>
+<Column name="dias_semana" id="01CFE794-3236-D61D-5433-0D38791E8CDF">
+<sourceDDLFile>DDL_DATA_MODELER.ddl</sourceDDLFile>
+<createdBy>usuario</createdBy>
+<createdTime>2026-03-19 19:55:15 UTC</createdTime>
+<ownerDesignName>DMD</ownerDesignName>
+<importedID>55C509E0-2CBA-6E96-EEF8-0A0F1BCAFFB7</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>447FC532-0DBA-550C-A7AC-8600771B0D24</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_empleado" id="0EAC9A11-57A8-AF72-E860-EBF880B7222D">
+<sourceDDLFile>DDL_DATA_MODELER.ddl</sourceDDLFile>
+<createdBy>usuario</createdBy>
+<createdTime>2026-03-19 19:55:15 UTC</createdTime>
+<ownerDesignName>DMD</ownerDesignName>
+<importedID>D7251E22-A1C5-D4A6-814C-52252465F6A6</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>447FC532-0DBA-550C-A7AC-8600771B0D24</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0F5DD1F7-03F9-1D8F-80B2-09570A3DCF96" referredColumn="3123B20C-9F92-CBF5-EB20-4E068CCC35E2"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="537637E2-D89E-B175-B730-75583B7183DA" name="rutina_pk">
+<sourceDDLFile>DDL_DATA_MODELER.ddl</sourceDDLFile>
+<createdBy>usuario</createdBy>
+<createdTime>2026-03-19 19:55:15 UTC</createdTime>
+<ownerDesignName>DMD</ownerDesignName>
+<importedID>C40D8D63-4198-3F49-C56E-E5264505DE09</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7CEC1A09-2F7E-5265-37A4-C2893D03F46D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="423135B1-869C-FF75-8BB0-DA6ED9830394" name="rutina_monitor_fk">
+<createdBy>usuario</createdBy>
+<createdTime>2026-03-19 19:55:15 UTC</createdTime>
+<ownerDesignName>DMD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0EAC9A11-57A8-AF72-E860-EBF880B7222D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="55E74389-190B-E8FF-7630-8215250D9718" name="rutina_servicio_fk">
+<createdBy>usuario</createdBy>
+<createdTime>2026-03-19 19:55:15 UTC</createdTime>
+<ownerDesignName>DMD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7CEC1A09-2F7E-5265-37A4-C2893D03F46D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

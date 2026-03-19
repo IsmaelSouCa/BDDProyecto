@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="empleado" directorySegmentName="seg_0" id="8300ECC7-E0FC-44DD-7ECC-C2E077A8592E">
+<createdBy>usuario</createdBy>
+<createdTime>2026-03-19 19:55:15 UTC</createdTime>
+<ownerDesignName>DMD</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="apellido2" id="4C4A28CD-134D-D168-B4CB-9A28C7B17BC0">
+<createdBy>usuario</createdBy>
+<createdTime>2026-03-19 19:55:15 UTC</createdTime>
+<ownerDesignName>DMD</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="id_centro" id="4CBE1365-02CB-DEED-ADFC-2198F0609409">
+<createdBy>usuario</createdBy>
+<createdTime>2026-03-19 19:55:15 UTC</createdTime>
+<ownerDesignName>DMD</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="id_jefe" id="567C5E04-0827-E955-7B70-B6E3EB7D36B2">
+<createdBy>usuario</createdBy>
+<createdTime>2026-03-19 19:55:15 UTC</createdTime>
+<ownerDesignName>DMD</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="id_empleado" id="7BB6289B-999F-A559-6BA6-9E1FFE19B75D">
+<createdBy>usuario</createdBy>
+<createdTime>2026-03-19 19:55:15 UTC</createdTime>
+<ownerDesignName>DMD</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="salario" id="963657CC-20CB-368F-7783-FB931D5C5513">
+<createdBy>usuario</createdBy>
+<createdTime>2026-03-19 19:55:15 UTC</createdTime>
+<ownerDesignName>DMD</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="tlf_contacto" id="D646466C-2C5A-14D9-0B9D-51C79E655312">
+<createdBy>usuario</createdBy>
+<createdTime>2026-03-19 19:55:15 UTC</createdTime>
+<ownerDesignName>DMD</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="nombre" id="E2D7F93C-7D2F-2C81-8BFC-469367719329">
+<createdBy>usuario</createdBy>
+<createdTime>2026-03-19 19:55:15 UTC</createdTime>
+<ownerDesignName>DMD</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="dni" id="ECBB4556-5FB8-45B3-8E60-B833E035D716">
+<createdBy>usuario</createdBy>
+<createdTime>2026-03-19 19:55:15 UTC</createdTime>
+<ownerDesignName>DMD</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="apellido1" id="FD9FD09B-7CBF-AAD5-D0FC-0B4F05EFE756">
+<createdBy>usuario</createdBy>
+<createdTime>2026-03-19 19:55:15 UTC</createdTime>
+<ownerDesignName>DMD</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="empleado_empleado_fk" id="034C3337-A894-C6E7-F74C-2F86FAB52364">
+<createdBy>usuario</createdBy>
+<createdTime>2026-03-19 19:55:15 UTC</createdTime>
+<ownerDesignName>DMD</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="empleado_centro_fk" id="BD7D1C54-FFA4-DE97-A6BB-643B366636A9">
+<createdBy>usuario</createdBy>
+<createdTime>2026-03-19 19:55:15 UTC</createdTime>
+<ownerDesignName>DMD</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="empleado_pk" id="5862EB1C-8765-4907-2C3D-43AF2E4047CA">
+<createdBy>usuario</createdBy>
+<createdTime>2026-03-19 19:55:15 UTC</createdTime>
+<ownerDesignName>DMD</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+<uniqueKeys>
+<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="empleado__un" id="8391AEAA-14AE-BF20-C4EC-8000C540D87D">
+<createdBy>usuario</createdBy>
+<createdTime>2026-03-19 19:55:15 UTC</createdTime>
+<ownerDesignName>DMD</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</UniqueKey>
+</uniqueKeys>
+</TableProxyOraclev20c>

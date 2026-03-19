@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B51E30D7-5B68-0F05-A712-3C23AFA763D0" containerWithKeyObject="515769DA-8214-D5F0-A7D3-CFEE5105B54C" localFKIndex="6C5CBD0F-E818-7FC2-E40B-A71DFAD7AF8A" name="dieta_nutricionista_fk">
+<sourceDDLFile>DDL_DATA_MODELER.ddl</sourceDDLFile>
+<createdBy>usuario</createdBy>
+<createdTime>2026-03-19 19:55:15 UTC</createdTime>
+<ownerDesignName>DMD</ownerDesignName>
+<importedID>6BB42FA4-9F9E-2925-2341-1F8CB09BEB74</importedID>
+<referredTableLongName>nutricionista</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>C1439737-C468-678C-C577-7B11DF3A50EA</referredTableID>
+<keyObject>3FB31657-6CE2-C5A7-CD4B-B354DEF16404</keyObject>
+<referredKeyID>3FB31657-6CE2-C5A7-CD4B-B354DEF16404</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_empleado</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

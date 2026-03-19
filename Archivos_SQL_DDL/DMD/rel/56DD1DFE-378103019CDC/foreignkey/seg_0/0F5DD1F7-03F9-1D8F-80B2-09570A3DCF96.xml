@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="0F5DD1F7-03F9-1D8F-80B2-09570A3DCF96" containerWithKeyObject="05D47B84-0D4A-AEDF-A846-3DF0197DEF55" localFKIndex="423135B1-869C-FF75-8BB0-DA6ED9830394" name="rutina_monitor_fk">
+<sourceDDLFile>DDL_DATA_MODELER.ddl</sourceDDLFile>
+<createdBy>usuario</createdBy>
+<createdTime>2026-03-19 19:55:15 UTC</createdTime>
+<ownerDesignName>DMD</ownerDesignName>
+<importedID>B7F2A82A-EAB1-E5DE-FEED-EAEEC8783FFC</importedID>
+<referredTableLongName>monitor</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>C74435D1-4690-D01D-5EF7-AB841E795D03</referredTableID>
+<keyObject>ED7304F6-E756-44C1-8663-57B5AE3E9E35</keyObject>
+<referredKeyID>ED7304F6-E756-44C1-8663-57B5AE3E9E35</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_empleado</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

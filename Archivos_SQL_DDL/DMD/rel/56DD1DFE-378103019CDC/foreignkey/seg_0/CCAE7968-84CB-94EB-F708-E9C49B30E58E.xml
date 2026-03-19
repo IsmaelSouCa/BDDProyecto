@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="CCAE7968-84CB-94EB-F708-E9C49B30E58E" containerWithKeyObject="6DFCF58F-84B6-5081-0B49-F65824E7BAA1" localFKIndex="0CAEC580-CCD9-F099-8C1C-D3DFEF0C09FA" name="limpiador_empleado_fk">
+<sourceDDLFile>DDL_DATA_MODELER.ddl</sourceDDLFile>
+<createdBy>usuario</createdBy>
+<createdTime>2026-03-19 19:55:15 UTC</createdTime>
+<ownerDesignName>DMD</ownerDesignName>
+<importedID>D76EBF3F-AEC7-EBAA-7C2A-4C077AF6130F</importedID>
+<referredTableLongName>empleado</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>8300ECC7-E0FC-44DD-7ECC-C2E077A8592E</referredTableID>
+<keyObject>5862EB1C-8765-4907-2C3D-43AF2E4047CA</keyObject>
+<referredKeyID>5862EB1C-8765-4907-2C3D-43AF2E4047CA</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_empleado</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

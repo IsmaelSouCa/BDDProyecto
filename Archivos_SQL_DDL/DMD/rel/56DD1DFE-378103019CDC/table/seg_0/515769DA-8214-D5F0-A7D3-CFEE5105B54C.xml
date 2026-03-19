@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="515769DA-8214-D5F0-A7D3-CFEE5105B54C" name="dieta">
+<sourceDDLFile>DDL_DATA_MODELER.ddl</sourceDDLFile>
+<createdBy>usuario</createdBy>
+<createdTime>2026-03-19 19:55:15 UTC</createdTime>
+<ownerDesignName>DMD</ownerDesignName>
+<importedID>1B33EEE9-B728-CDF8-0E87-F8BE8467021A</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_servicio" id="D4B31C23-5979-BEB0-9E4A-BD54AC5EA992">
+<sourceDDLFile>DDL_DATA_MODELER.ddl</sourceDDLFile>
+<createdBy>usuario</createdBy>
+<createdTime>2026-03-19 19:55:15 UTC</createdTime>
+<ownerDesignName>DMD</ownerDesignName>
+<importedID>BA2377D5-CA4E-992F-8B71-6C0C25F1000A</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>447FC532-0DBA-550C-A7AC-8600771B0D24</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9B1859B0-417F-6C7C-CF48-F6F13658C8C3" referredColumn="6D7CB0F9-7237-22BF-73E9-BE10AC788CFD"/>
+</associations>
+</Column>
+<Column name="tipo_dieta" id="11CDC045-069F-6021-FE30-AA873677AFC0">
+<sourceDDLFile>DDL_DATA_MODELER.ddl</sourceDDLFile>
+<createdBy>usuario</createdBy>
+<createdTime>2026-03-19 19:55:15 UTC</createdTime>
+<ownerDesignName>DMD</ownerDesignName>
+<importedID>ACDBBB7A-8FD6-94FA-EB83-148CA9033FBE</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>28812A9D-DE62-BAD4-4DA7-19302F658674</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_empleado" id="2DB9A62A-85AD-C3AE-2901-45DC4E019C24">
+<sourceDDLFile>DDL_DATA_MODELER.ddl</sourceDDLFile>
+<createdBy>usuario</createdBy>
+<createdTime>2026-03-19 19:55:15 UTC</createdTime>
+<ownerDesignName>DMD</ownerDesignName>
+<importedID>3C3527AE-65D2-C0FD-055D-278D4ED89B99</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>447FC532-0DBA-550C-A7AC-8600771B0D24</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B51E30D7-5B68-0F05-A712-3C23AFA763D0" referredColumn="6038F147-EEAC-DD86-AB67-93044D91C527"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B5940D57-7A5C-E093-794F-C7620EFE9B36" name="dieta_pk">
+<sourceDDLFile>DDL_DATA_MODELER.ddl</sourceDDLFile>
+<createdBy>usuario</createdBy>
+<createdTime>2026-03-19 19:55:15 UTC</createdTime>
+<ownerDesignName>DMD</ownerDesignName>
+<importedID>1C520CAA-C8D8-BFB9-A8D5-FD476F63A5CA</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D4B31C23-5979-BEB0-9E4A-BD54AC5EA992"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6C5CBD0F-E818-7FC2-E40B-A71DFAD7AF8A" name="dieta_nutricionista_fk">
+<createdBy>usuario</createdBy>
+<createdTime>2026-03-19 19:55:15 UTC</createdTime>
+<ownerDesignName>DMD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2DB9A62A-85AD-C3AE-2901-45DC4E019C24"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="88B923BD-D50F-3382-21CB-ED4AF30AC8AD" name="dieta_servicio_fk">
+<createdBy>usuario</createdBy>
+<createdTime>2026-03-19 19:55:15 UTC</createdTime>
+<ownerDesignName>DMD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D4B31C23-5979-BEB0-9E4A-BD54AC5EA992"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
