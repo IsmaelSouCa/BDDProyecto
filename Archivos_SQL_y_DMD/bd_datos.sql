@@ -2244,7 +2244,34 @@ VALUES (237,99);
 INSERT INTO USUARIO_CONTRATA_SERVICIO (ID_USUARIO,ID_SERVICIO)
 VALUES (105,100);
 
+--Actualización
+update empleado
+set salario = salario + (salario * 0.20)
+where id_jefe is null and salario < 1500;
 
+update servicio
+set fin_contrato = sysdate
+where fin_contrato is null;
 
+update maquina
+set id_empleado = id_empleado
+where id_maquina IN (
+    select id_maquina
+    from maquina m join limpiador l on m.id_empleado = l.id_empleado join empleado e on l.id_empleado = e.id_empleado
+    where tipo = 'MANCUERNA' and e.id_jefe is null);
+
+drop table chico_fitness cascade constraints;
+
+create table chico_fitness (
+    id_usuario integer primary key
+    );
+    alter table chico_fitness add constraint fk_usuario_chico foreign key (id_usuario) references usuario(id_usuario);
+    
+insert into chico_fitness
+select ucs.id_usuario
+from usuario_contrata_servicio ucs join usuario u on ucs.id_usuario = u.id_usuario join centro c on u.id_centro = c.id_centro
+where c.nombre in('La Rioja', 'Catalunya', 'Madrid');
+
+    
 
 COMMIT;
