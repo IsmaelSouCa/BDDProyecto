@@ -3,6 +3,7 @@ CREATE USER c##rippedfit IDENTIFIED BY rippedfit DEFAULT TABLESPACE USERS;
 GRANT ALL PRIVILEGES TO c##rippedfit;
 CONNECT c##rippedfit/rippedfit;
 
+--BORRADO DE TABLAS
 DROP TABLE usuario_utiliza_maquina CASCADE CONSTRAINTS;
 DROP TABLE usuario_contrata_servicio CASCADE CONSTRAINTS;
 DROP TABLE usuario CASCADE CONSTRAINTS;

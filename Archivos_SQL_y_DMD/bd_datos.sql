@@ -2042,4 +2042,17 @@ VALUES (174,'PRENSA',288,133);
 INSERT INTO MAQUINA (ID_MAQUINA,TIPO,PESO_INICIAL,ID_EMPLEADO)
 VALUES (175,'POLEA',279,143);
 
+--Consultas
+SELECT e.nombre || ' ' || e.apellido1 || ' ' || e.apellido2 AS NOMBRE_COMPLETO
+FROM empleado e, centro c
+WHERE e.id_centro = c.id_centro AND c.nombre = 'La Rioja'
+GROUP BY id_empleado, e.nombre, e.apellido1, e.apellido2
+HAVING id_empleado IN
+    (SELECT id_empleado
+    FROM empleado
+    GROUP BY id_empleado
+    HAVING COUNT(id_jefe) >= 2)
+ORDER BY 1 DESC; 
+
+
 COMMIT;
