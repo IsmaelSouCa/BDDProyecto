@@ -2244,6 +2244,77 @@ VALUES (237,99);
 INSERT INTO USUARIO_CONTRATA_SERVICIO (ID_USUARIO,ID_SERVICIO)
 VALUES (105,100);
 
+--Consultas
+
+--1
+select e2.id_empleado, e2.nombre, count(e.id_empleado) "CANTIDAD DE EMPLEADOS"
+from empleado e join empleado e2 on e.id_jefe = e2.id_empleado
+group by e2.id_empleado, e2.nombre
+having count(e.id_empleado) = (
+    select max(count(id_empleado))
+    from empleado
+    where id_jefe is not null
+    group by id_jefe
+    );
+
+--2
+SELECT n.id_empleado, e.nombre
+FROM empleado e JOIN nutricionista n ON e.id_empleado = n.id_empleado
+JOIN dieta d ON n.id_empleado = d.id_empleado
+JOIN servicio s ON d.id_servicio = s.id_servicio
+WHERE (s.fin_contrato IS NOT NULL AND (s.fin_contrato - s.inicio_contrato) > 3 * 365) OR ((sysdate - s.inicio_contrato) > 3 * 365)
+ORDER BY 2;
+
+-- 3
+select c.id_centro, count(n.id_empleado) "CANTIDAD DE NUTRICIONISTAS"
+from centro c join empleado e on c.id_centro = e.id_centro
+join nutricionista n on e.id_empleado = n.id_empleado
+group by c.id_centro
+having count(n.id_empleado) >= 5
+order by 2 DESC;
+
+-- 4
+SELECT e.nombre || ' ' || e.apellido1 || ' ' || e.apellido2 "EMPLEADO", e.salario, c.nombre "CENTRO"
+FROM empleado e JOIN centro c ON e.id_centro = c.id_centro
+WHERE e.salario > (
+    SELECT AVG(e2.salario)
+    FROM empleado e2
+    WHERE e2.id_centro = e.id_centro
+)
+ORDER BY c.nombre, e.salario DESC;
+
+-- VISTAS
+
+-- 1
+DROP VIEW rutinas3Dias;
+
+CREATE VIEW rutinas3Dias AS
+SELECT r.id_servicio, e.salario
+FROM rutina r JOIN empleado e ON r.id_empleado = e.id_empleado
+WHERE e.salario > 2000 AND r.dias_semana > 3;
+
+SELECT * from rutinas3Dias;
+
+-- 2
+CREATE VIEW prensaLimpiador AS
+SELECT m.id_maquina, e.nombre
+FROM maquina m JOIN empleado e ON m.id_empleado = e.id_empleado
+WHERE m.tipo = 'PRENSA';
+
+SELECT * FROM prensaLimpiador;
+
+-- ELIMINACIONES
+
+-- 3
+DELETE FROM CENTRO
+WHERE ID_CENTRO IN (
+    SELECT c.id_centro
+    FROM centro c JOIN empleado e ON c.id_centro = e.id_centro
+    WHERE MONTHS_BETWEEN(SYSDATE, c.fecha_apertura) >= 12 * 20
+    GROUP BY c.id_centro, c.nombre
+    HAVING COUNT(*) > 5
+    );
+
 --Actualización
 update empleado
 set salario = salario + (salario * 0.20)
